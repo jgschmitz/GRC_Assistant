@@ -1,7 +1,7 @@
 // ============================================================================
 // Target MongoDB schema (the "after").
 // The collection-validator equivalent of sql/legacy_schema.sql. Run with:
-//   mongosh "<MONGODB_URI>" mongo/target_schema.js
+//   mongosh "<MONGODB_URI>" mongo/target_schema.js - demo grade 
 //
 // Each createCollection uses a $jsonSchema validator so the document model is
 // explicit and enforced, the MongoDB analogue of CREATE TABLE column types.
